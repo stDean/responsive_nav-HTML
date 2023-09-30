@@ -177,6 +177,19 @@ li.move-right {
     z-index: 100;
     align-items: initial;
     display: none;
+    overflow-y: scroll;
+  }
+
+  .nav-list::-webkit-scrollbar {
+    width: 1rem;
+  }
+  
+  .nav-list::-webkit-scrollbar-track {
+    background: #fff;
+  }
+  
+  .nav-list::-webkit-scrollbar-thumb {
+    background: #eb3007;
   }
 
   .nav-list>li {
